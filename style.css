@@ -1,0 +1,49 @@
+body {
+    background-color: aqua
+}
+
+.mainDiv {
+    display: flex;
+}
+
+.firstSection {
+    background-color: palevioletred;
+}
+
+.secondSection {
+    background-color: pink;
+}
+
+.mainDiv,
+sonOf {
+    flex-direction: column;
+}
+
+.firstSection,
+.secondSection,
+.footerSection {
+    flex-direction: row;
+}
+
+.firstSection-img,
+.firstSection-text {
+    flex: 1;
+}
+
+.secondSection-sonOf {
+    flex: 1;
+}
+
+.secondSection-text {
+    flex: 2;
+}
+
+.secondSection-sonOf-img,
+.secondSection-sonOf-text {
+    flex: 1;
+}
+
+.footerSection {
+    flex: 4;
+    justify-content: space-between;
+}
